@@ -3,6 +3,10 @@ set nu
 syntax on
 filetype plugin indent on
 
+" default to shift/tab of 4
+set shiftwidth=4
+set tabstop=4
+
 " vim-clojure
 let vimclojure#ParenRainbow=1           " Rainbow parentheses!
 
