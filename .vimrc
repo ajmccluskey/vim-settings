@@ -9,5 +9,9 @@ let vimclojure#ParenRainbow=1           " Rainbow parentheses!
 " vim-slime
 let g:slime_target = "tmux"
 
-set guifont=Consolas:h12:cANSI
+"We only want to change the font on Windows
+if has("win32") || has("win16")
+	set guifont=Consolas:h12:cANSI
+endif
+
 colorscheme slate
