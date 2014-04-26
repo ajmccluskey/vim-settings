@@ -7,6 +7,9 @@ filetype plugin indent on
 set shiftwidth=4
 set tabstop=4
 
+" Make sure the ruler is on so we can see which column we're on
+set ruler
+
 " vim-clojure
 let vimclojure#ParenRainbow=1	" Rainbow parentheses!
 
