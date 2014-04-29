@@ -6,6 +6,7 @@ filetype plugin indent on
 
 " default to shift/tab of 4
 set shiftwidth=4
+set softtabstop=4
 set tabstop=4
 
 " Make sure the ruler is on so we can see which column we're on
