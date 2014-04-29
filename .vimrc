@@ -9,6 +9,9 @@ set shiftwidth=4
 set softtabstop=4
 set tabstop=4
 
+" allow backspacing over autoindent, newlines, and start of insert
+set backspace=2
+
 " Make sure the ruler is on so we can see which column we're on
 set ruler
 
