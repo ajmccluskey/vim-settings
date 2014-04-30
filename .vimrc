@@ -9,6 +9,10 @@ set shiftwidth=4
 set softtabstop=4
 set tabstop=4
 
+" remap direction keys to move into wrapped lines
+:nnoremap j gj
+:nnoremap k gk
+
 " allow backspacing over autoindent, newlines, and start of insert
 set backspace=2
 
