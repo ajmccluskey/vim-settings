@@ -9,6 +9,9 @@ set shiftwidth=4
 set softtabstop=4
 set tabstop=4
 
+" allow unsaved buffers to lose focus
+set hidden
+
 " remap direction keys to move into wrapped lines
 :nnoremap j gj
 :nnoremap k gk
