@@ -25,6 +25,9 @@ set ruler
 " vim-clojure
 let vimclojure#ParenRainbow=1	" Rainbow parentheses!
 
+" paredit
+let g:paredit_mode=1
+
 " vim-slime
 let g:slime_target = "tmux"
 
