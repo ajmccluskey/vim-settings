@@ -42,4 +42,5 @@ else
 	set dir=/tmp
 endif
 
-colorscheme slate
+set background=dark
+colorscheme solarized
